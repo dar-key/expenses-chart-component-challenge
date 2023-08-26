@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Expenses chart component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="expenses-chart-component-container">
+    <div class="my-balance-div">
+      <div class="left">
+        <h4>My balance</h4>
+        <h2 class="balance">$921.48</h2>
+      </div>
+      <div>
+        <img src="./images/logo.svg" alt="Logo" class="logo">
+      </div>
+    </div>
+
+    <div class="spending-div">
+      <h2>Spending - Last 7 days</h2>
+      <div class="stats">
+        <div class="mon day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">mon</p>
+        </div>
+        <div class="tue day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">tue</p>
+        </div>
+        <div class="wed day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">wed</p>
+        </div>
+        <div class="thu day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">thu</p>
+        </div>
+        <div class="fri day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">fri</p>
+        </div>
+        <div class="sat day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">sat</p>
+        </div>
+        <div class="sun day">
+          <p class="amount">$52.36</p>
+          <div class="line"></div>
+          <p class="name">sun</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="total">
+        <div class="left">
+          <p>Total this month</p>
+          <h2 class="total-number">$478.33</h2>
+        </div>
+        
+        <div class="right">
+          <p class="percent-last-month">+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
